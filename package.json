@@ -1,9 +1,12 @@
 {
-  "name": "pbkdf2-sha256",
+  "name": "pbkdf2-sha512",
   "version": "1.1.0",
-  "description": "pbkdf2-sha256 is a PBDKF2 implementation using HMAC SHA256",
+  "description": "pbkdf2-sha512 is a PBDKF2 implementation using HMAC SHA512",
   "main": "./lib/pbkdf2.js",
-  "author": "JP Richardson <jprichardson@gmail.com>",
+  "contributors": [
+    "JP Richardson <jprichardson@gmail.com>",
+    "George Czabania <george@czabania.com>"
+  ],
   "license": "BSD",
   "devDependencies": {
     "coveralls": "^2.10.0",
@@ -14,14 +17,14 @@
   },
   "keywords": [
     "pbkdf2",
-    "sha256",
+    "sha512",
     "hmac",
     "crypto",
     "cryptography",
     "scrypt"
   ],
   "repository": {
-    "url": "git@github.com:cryptocoinjs/pbkdf2-sha256.git",
+    "url": "git@github.com:stayradiated/pbkdf2-sha512.git",
     "type": "git"
   },
   "scripts": {
